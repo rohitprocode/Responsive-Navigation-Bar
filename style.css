@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+body{
+    background-color: rebeccapurple;
+}
+
 nav{
     height: 80px;
     width: 100%;
@@ -54,7 +58,12 @@ nav #icon {
     display: none;
 }
 
+section{
+    background: url(/dices.png) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
 
+}
 
 @media (max-width: 1048px){
     label.logo{
